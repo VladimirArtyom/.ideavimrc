@@ -1,0 +1,13 @@
+set scrolloff=7
+set incsearch
+let mapleader = " "
+
+Plug 'machakann/vim-highlightedyank'
+" Commentary plugin
+Plug 'tpope/vim-commentary'
+Plug 'preservim/nerdtree'
+Plug 'terryma/vim-multiple-cursors'
+
+
+nmap <Leader>nt :NERDTreeToggle<CR>
+nmap <Leader>nc : NERDTreeClose<CR>
